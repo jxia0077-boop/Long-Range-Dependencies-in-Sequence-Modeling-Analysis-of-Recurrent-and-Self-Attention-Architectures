@@ -1,4 +1,3 @@
-# Long-Range-Dependencies-in-Sequence-Modeling-Analysis-of-Recurrent-and-Self-Attention-Architectures
 # Capturing Long-Range Dependencies in Sequence Modeling: A Comparative Analysis of Recurrent and Self-Attention Architectures
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
@@ -60,3 +59,11 @@ Experiments were conducted on text classification tasks requiring the understand
     - `Loss Function`: CrossEntropyLoss with `Label Smoothing`
 
 ## 📂 Repository Structure
+## 🔧 How to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/YourUsername/Capturing-Long-Range-Dependencies.git](https://github.com/YourUsername/Capturing-Long-Range-Dependencies.git)
+   cd Capturing-Long-Range-Dependencies
+   pip install torch numpy matplotlib
+   python train.py --model transformer --epochs 30 --batch_size 64
